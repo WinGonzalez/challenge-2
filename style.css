@@ -43,7 +43,8 @@ color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-
+  border-bottom: 3px solid  #ed2c2cdb;
+  text-decoration: underline  rgb(90, 240, 110);
   
 }
 
@@ -55,8 +56,9 @@ color: white;
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #ed2c2cdb;
+  background-color:#ed2c2cdb ;
   color: white;
+  border-bottom: 3px solid #ed2c2cdb;
 }
 
 
