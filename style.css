@@ -5,10 +5,10 @@ body, html {
 /* The hero image */
 .hero-image {
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn2.vectorstock.com/i/1000x1000/52/56/black-and-white-stripe-geometric-vintage-design-vector-9355256.jpg");
 
 /* Set a specific height */
-height: 50%;
+height: 25%;
 
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
@@ -25,8 +25,9 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
-}{
-  background-color: rgb(90, 240, 110);
+
+}
+  body {background-color: rgb(90, 240, 110);
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -42,6 +43,8 @@ color: white;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
+  
 }
 
 /* Change the color of links on hover */
@@ -52,7 +55,7 @@ color: white;
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #ed2c2cdb;
   color: white;
 }
 
